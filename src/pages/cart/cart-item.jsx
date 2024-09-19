@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
 
@@ -9,7 +8,7 @@ export const CartItem = (props) => {
 
   return (
     <div className="cartItem">
-      <img src={productImage}/>
+      <img src={productImage} />
       <div className="description">
         <p>
           <b>{productName}</b>
